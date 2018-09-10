@@ -1,0 +1,439 @@
+<!DOCTYBE html >
+
+<html ng-app="mainApp">
+<head><title>DemoNews</title>
+	
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/news.css" rel="stylesheet" type="text/css">
+	<link href="font-awesome-4.5.0/css/font-awesome.min.css"> 
+	<link href="font-awesome-4.5.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Font+Name">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+		<script src="js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+<link href="css/bootstrap-theme.min.css">
+<!--
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+-->
+	<script src="js/bootstrap.min.js" ></script>
+	<script src="js/bootstrap.js"></script>
+
+</head>
+	<body>
+
+		<!--first navbar -->
+		<div class="nav-frist">
+	<nav class="navbar navbar-inverse" ng-controller="mainCtrl">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarArchives">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+ <ul class="navbar-brand navbar-right" >T-Magazine</ul>
+
+    </div>
+	  
+    <div class="collapse navbar-collapse" id="myNavbarArchives">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Arshives</a></li>
+	  <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+		
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-facebook-official fa-2x"  aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+		 <li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+
+      </ul>
+		
+    </div>
+	  
+  </div>
+</nav>
+</div>
+		
+		<!--start section header -->
+        <div class="section-header"> 
+		<div class="container">	
+		<div class="logo-header ">
+		<h1> 
+Time Magazine
+</h1>	
+      </div>
+	<img class="Adds-header" src="image/add1.png" alt="Adds-header"> 	
+        </div>
+		</div>
+		
+		<!--start Second navbar -->
+		<div class="nav-seconed">
+	<nav class="navbar navbar-inverse" ng-controller="mainCtrl">
+  <div class="container">
+	  
+	  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+		
+ <a class="navbar-brand  navbar-brand-logo Logo-active" href="#">
+            <div class="logo"><img alt="Task Helper Logo" src=
+                        "image/logo.png"></div>
+                        
+            </a>
+	 </div>
+	  
+	  
+	  
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="activee"><a class="allNews">All news</a></li>
+		 <li><a href="#" class="Politic">Politic</a></li>
+
+		      <li><a  href="#" class="Business">Business </a></li>
+
+        <li><a  href="#" class="Sport">Sport </a></li>
+		  
+        <li><a href="#" class="Travel">Travel</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <span>
+	
+			<input type="text" placeholder="   Search ...." >
+	
+		  </span>
+		  <span><i class="fa fa-search fa-2x btn btnSearch" aria-hidden="true"></i>
+          </span>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+		
+		<!--start haot new  and marquee --> 
+	 <div class="container-fluid section-hotnews" > 
+		<div class="title-hotnews container">
+		 <span class="nameTitle">Breaking News</span> 
+		<marquee id="section-hotnews"  WIDTH="83%" onmouseover="this.stop();" onmouseout="this.start();">
+			<small>11 hour ago</small>	
+		<a href="#" >  Syria crisis: Obama rejects US military intervention
+ </a>
+    <small>12 hour ago</small><a href="#" >U.S. presses Afghanistan on militants	
+ </a>
+	<small>2 hour ago</small><a href="#" > US and North Korea to hold nuclear talks in Beijing
+  </a>	
+	<small>10 hour ago</small><a href="#" > Apple Reports Record Earnings and iPad Sales
+</a>
+         </marquee>
+		</div>
+		</div>
+		
+		<!--start div  content this div changed  by  ajax code -->
+		<div  class="change-content  content container-fluid">
+	 <div class="container">
+	<div class="col-md-12 post-view">
+		 <div class="col-md-9 header-post">
+		<span class="title-post">Sport</span>
+           <h3 class="title-header">Preparations for Preliminary Draw underway
+            </h3> 
+	<span class="date-post">April 18, 2015</span>	
+		<hr>
+			 <div class="col-md-4 more-news">
+			 <h4>More in Sport:</h4>
+			<hr class="more">
+			<div class="item-content-post">
+		      <img src="image/mercedec.jpg">		 
+			  <h4>2017 Mercedes-AMG C63 </h4>	
+				<span>August 25, 2015</span>
+		   </div>	
+				 
+				 <div class="item-content-post">
+		      <img src="image/sport%20(1).jpg">		 
+			  <h4>Lisboa Triathlon 2015 </h4>	
+				<span>August 25, 2015</span>
+		   </div>
+				 
+				 <div class="item-content-post">
+		      <img src="image/spot%20car.jpg">		 
+			  <h4>When the VW Race Touareg dominated Dakar </h4>	
+				<span>August 6, 2015</span>
+		   </div>
+			 
+			 
+			 </div>
+			 <div class="col-md-8 content-post">
+			  <div class="post-details">
+				<img src="image/sport.jpg">
+				 </div> 
+				 <div class="p-post-details">
+				  <p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content.</p>
+					 
+					 <p> If you want to read, I might suggest a good book, <a>perhaps Hemingway</a> or <a>Melville</a>. That’s why they call it, the dummy copy. This, of course, is not the real copy for this entry. Rest assured, the words will expand the concept. With clarity. <a>Conviction </a>. And a little wit.</p>
+					
+					 <p>
+					 All your supporting arguments must be communicated with simplicity and charm. And in such a way that the reader will read on. (After all, that’s a reader’s job: to read, isn’t it?) And by the time your readers have reached this point in the finished copy, you will have convinced them that you not only respect their intelligence, but you also understand their needs as consumers.
+					 </p>
+				  
+					<h3> Long copy or short – You decide</h3> 
+					 
+					  <p class="video-news">
+					 
+					 <iframe width="500" height="315" src="https://www.youtube.com/embed/XB5jomTKzK4" frameborder="0" allowfullscreen></iframe>
+					 </p>
+					 
+					 
+					 <p class="P-differnt"> For you, the skies will be blue, the birds will sing, and your copy will be crafted by a dedicated little man whose wife will be sitting at home, knitting, wondering why your entry demands more of her husband‘s time than it should.</p>
+					 
+					 
+					 
+					  <p> If you want to read, I might suggest a good book, <a>perhaps Hemingway</a> or <a>Melville</a>. That’s why they call it, the dummy copy. This, of course, is not the real copy for this entry. Rest assured, the words will expand the concept. With clarity. <a>Conviction </a>. And a little wit.</p>
+					 
+					 
+				
+					
+					 
+					 
+					 
+				  </div> 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+				 
+			<hr>	 
+			 </div>
+			 <div class="add-comment">
+			 <h3>Add Comment</h3>
+			<span>Your email address will not be published. Required fields are marked *
+</span>
+				 <br>
+		<form class="form">		 
+		<div class="form-group">		 
+		<label for="name">Name</label>	
+ <input class="form-control" type="text" placeholder="Enter Name" id="name"> 
+				 </div>		
+					 <br>
+	<div class="form-group">		 
+	<label for="email">Email</label>	
+ <input class="form-control" type="Email" placeholder="Enter Email" id="email"> 			 
+	</div>
+	<br>
+	 <div class="form-group">
+  <label for="comment">Comment:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+		
+		 <div class="form-group">
+			 <button class="btn bttn">Post Comment</button>
+				 </div>			 
+				 
+		</form>
+				 
+				 
+			 </div>
+		</div>
+		
+	<div class="col-md-3 right-side">
+		
+             <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home-Recent">Recent</a></li>
+    <li><a data-toggle="tab" href="#menu-popular">Popular</a></li>
+  </ul>
+
+             
+  <div class="tab-content">
+    <div id="home-Recent" class="tab-pane fade  in active home-Recent">
+     <br>
+		
+	 <div class="content-rescnt">    
+      <img src="image/sport.jpg">
+		 <p><a>Amsterdam on Foot: Where to Walk in the Dutch Capital</a></p>
+		 <br>
+    </div>
+		
+    <div class="content-rescnt">    
+      <img src="image/obama.jpg">
+		<p><a>Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></p>
+	<br>	
+    </div>
+  
+       <div class="content-rescnt">    
+      <img src="image/obammm.jpg">
+		   <p><a>Lorem ipsum dolor sit ameWhere   Dutch Capita</a></p>
+	<br>	   
+    </div>
+		
+       <div class="content-rescnt">    
+      <img src="image/sport.jpg">
+		   <p><a>Amsterdam on Foot: Where to Walk in the Dutch Capital</a></p>
+		<br>   
+    </div>
+		
+		
+        
+        </div>
+	  
+	  
+    <div id="menu-popular" class="tab-pane fade">
+       <div class="popular-content ">    
+		   <h4><a>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
+		   <span><a> 7 comment</a></span>           
+     <hr>   
+    </div>
+          <div class="popular-content ">    
+			  <h4><a>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
+			  <span> <a> 6 comment</a></span>           
+     <hr>   
+    </div>
+          <div class="popular-content ">    
+			  <h4><a>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
+			  <span><a> 5 comment</a></span>           
+     <hr>   
+    </div>
+        
+        
+    </div>
+</div>
+	
+		
+ <div class="world-right">
+		 
+	
+		 
+		<div class="content-world-right panel "> 
+		<div class="panel-heading">	
+		 <h3>Follow us</h3>
+			</div>	
+	<div class="panel-body">		
+       <p>Let's connect on any of these social networks!</p> 
+		 <div class="button-btn">
+		<span class="facebook"><a href="#" ><i class="fa fa-facebook-official fa-2x"  aria-hidden="true"></i></a></span>
+        <span class="instagram"><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></span>
+		 <span class="twitter"><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></span> 
+		 </div> 
+		 </div>	 
+		 </div>
+	</div> 
+		
+		
+		
+		
+	    <div class="panel subscribt">
+				<div class="panel-heading"><h3>Subscribe to Blog via Email</h3></div>
+      <div class="panel-body"><p>
+		  
+		  Enter your email address to subscribe to this blog and receive notifications of new posts by email. </p>
+		<input type="email" class="form-control" placeholder="Email Address">
+		 <button class="btn btn-block bttn btn-hover">Subscribe </button> 
+				
+				
+				</div>
+    </div>	
+		
+		
+ <div class=" adds-three">
+			 
+		<img src="image/adds3.png"> 
+			 
+	</div>
+		
+		 <div class=" adds-three">
+			 
+		<img src="image/adds3.png"> 
+			 
+	</div>
+		
+		
+		
+		
+ </div>	
+		
+		
+	
+		
+ </div>	 
+			
+			
+			</div>
+	
+		
+		</div>
+		
+		
+		<!--footer section  is fixed  -->
+<div class=" footer" id="footer" >
+<div class="container first-section" >
+<div class="col-md-12">
+	<div class="col-md-4 About-footer">
+		<div class="content-footer">
+		 <h2>About</h2>
+       <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
+		</div>	
+		 <div class="button-btn">
+		<span class="facebook"><a href="#" ><i class="fa fa-facebook-official fa-2x"  aria-hidden="true"></i></a></span>
+        <span class="instagram"><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></span>
+		 <span class="twitter"><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></span> 
+		 </div> 
+		
+	</div>
+	
+	<div class="col-md-4 Subscribe-footer">
+	<div class="content-footer">
+		 <h2>Subscribe via Email</h2>
+       <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+		</div>		
+		
+<input type="email" class="form-control" placeholder="Email Address">
+<button class="btn btn-block bttn btn-hover">Subscribe </button>
+		
+	</div>
+	<div class="col-md-4 meta-footer">
+		
+		<div class="content-footer">
+		 <h2>Meta</h2>
+          <li>Comments RSS</li>
+		   <li>Entries RSS</li>
+		 <li>Log in</li>
+
+	
+		</div>	
+		
+	</div>
+</div>	
+	
+	<div class=" Secont-section">
+			
+	<div class="col-md-12"> 
+<p> Copyright © 2016 Time-Magazine. Designed by<strong> IntCore</strong></p>			
+				
+				
+	</div>
+		</div>	
+
+		</div>
+		</div>
+		
+		
+		
+		 <!--icon scroll-up -->
+
+		<div id="scroll-up">
+		<i class="fa fa-chevron-circle-up fa-3x fa-fw"></i>
+         </div>
+		<!--end icon scroll-up-->
+		
+	 <script src="js/news.js" type="text/javascript"></script>
+		</body>
+</html>
